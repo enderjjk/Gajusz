@@ -1,0 +1,51 @@
+/* Landscape phones and down */
+@media (max-width: 767px) {
+	section p, section ul, section ul li{ font-size:1.4m; } 
+	footer p{ font-size:1.2em; } 
+	section h1{ font-size:2em; margin:0; text-transform:uppercase; }
+	section h2{ color:#e85b98; font-size:1.75em; }
+	.mobile-menu{ 
+		position:fixed; 
+		top:70px;
+		background:#373737;
+		width:100%;
+		display:none;
+		z-index:9;
+	}
+	header{ height:70px; }
+	.mobile-menu li{
+		width:100%;
+		float:left; 
+	}
+	.mobile-menu li a{
+		height:40px; 
+		line-height:40px;
+		float:left;
+		text-align:center;
+		color:#fff;
+		text-decoration:none;
+		font-size:1.4em;
+	}
+	.mobile-menu li a:hover{
+		color:#373737;
+		background:#f3f3f3;
+	}
+	.intro-box h1{ font-size:3.25em; color:#fff; text-align:center; padding:100px 0; }
+	.header-big a{ 
+		background:url("../images/gajusz_logo.png")  no-repeat center center; 
+		font-size:0; 
+		top:-15px; 
+		padding:0; 
+		width:236px; 
+		height:134px; 
+		float:left;  
+		position:absolute; 
+		background-size:cover; 
+		left:50%; 
+		margin-left:-116.5px; 
+	} 
+	header .logo a{ 
+		width:120px; height:70px; 
+	}
+	a.button-link{ margin-bottom:2em; }
+}

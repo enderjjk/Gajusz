@@ -1,0 +1,145 @@
+body{ 
+	font-family: 'Dosis', sans-serif;
+  	background:#fff;
+	font-size:0.65em;
+}
+p{
+	font-family: 'Dosis', sans-serif;
+	font-size:1.8em;
+	line-height:1.4em;
+	padding-bottom:1.4em;
+	color:#5c5c5c;
+}
+strong{ font-weight:600; }
+.clear{ clear:both; }
+h1, h2, h3, h4{
+	font-family: 'Dosis', sans-serif;
+    font-weight: 400;	
+	line-height:1.4em;
+	padding-bottom:0.75em;
+	color:#e84f7d;
+}
+
+a, a:visited{ color:#079be1; }
+a:hover{ color:#079be1; text-decoration:underline; }
+.intro-box{
+	background:url("../images/top-bg.png") no-repeat top left; 
+	background-size:cover;
+}
+.intro-box h1{ font-size:7em; color:#fff; text-align:center; padding:140px 0; }
+.grid-container{ max-width:1200px; }
+header{ 
+	height:80px; background:#fff; 
+	opacity: 0;
+	filter: alpha(opacity=0);
+    -webkit-transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -ms-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+	-webkit-box-shadow: 0 1px 2px #888 !important;
+    -moz-box-shadow: 0 1px 2px #888 !important;
+    box-shadow: 0 1px 2px #888 !important;
+}
+header.visible {
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -ms-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;
+}
+header .logo{ position:relative; }
+header .logo a{ background:url("../images/gajusz_logo.png")  no-repeat center left; font-size:0; width:263px; height:149px; float:left;  position:absolute; background-size:cover; }
+.header-big a{ background:url("../images/gajusz_logo.png")  no-repeat center center; font-size:0; top:0px; padding:0; width:263px; height:149px; float:left;  position:absolute; background-size:cover; left:50%; margin-left:-131.5px;} 
+.menu-main, .menu-main nav, .menu-main .menu-main-area-icons{ float:right; }
+.menu-main, .menu-main nav li{
+	height:80px; 
+	line-height:80px;
+	float:left;
+}
+.menu-main nav a {
+	height:80px; 
+	line-height:80px;
+	float:left;
+	padding:0 10px;
+	color:#fff;
+	text-decoration:none;
+	font-size:1.6em;
+	font-family: 'Dosis', sans-serif;
+	color:#079be1;
+}
+.menu-main nav a:hover, .menu-main nav a.selected {
+	background:#079be1;
+	color:#fff;
+}
+.menu-main .menu-main-area-icons li{
+	height:70px; 
+	float:left;
+}
+.menu-main .menu-main-area-icons li a {
+	float:left;
+	margin:15px 10px;
+	width:38px;
+	height:38px;
+	border:1px solid #079be1;
+	font-size:0;
+}
+.menu-main .menu-main-area-icons li a{ background:url("../images/menu.png") no-repeat center center;  border-color:#079be1; }
+.menu-main .menu-main-area-icons li a:hover{ background:#079be1 url("../images/menu-hover.png") no-repeat center center; }
+section{ padding:2em 0; background:#f9f9f9; }
+section h1{ color:#e85b98; font-size:3em; margin:0; text-transform:uppercase; }
+section h1 a{ color:#e85b98; text-decoration:none; }
+section h2{ color:#e85b98; font-size:2.5em; text-transform:uppercase; }
+section h3, section h4{ color:#079be1; font-size:2em; }
+.fundacja-w-liczbach h3, .fundacja-w-liczbach h4{
+	font-family: 'Dosis', sans-serif;
+	text-align:center;
+	font-size:6em;
+    font-weight: 400;	
+	line-height:1em;
+	padding:0;
+	color:#e84f7d;
+	text-transform:uppercase;
+}
+.fundacja-w-liczbach .numer-box{ height:150px; }
+.fundacja-w-liczbach h4{ font-size:2em; color:#079be1; }
+.fundacja-opcje, .dom-dziecka-opcje{
+	background:#079be1;
+	padding:20px 10px;
+	height:225px;
+}
+.dom-dziecka-opcje.ostatnia {
+	background:#e85b98;
+}
+.dom-dziecka-opcje{ height:360px; margin-bottom:3em; }
+.fundacja-opcje h3, .fundacja-opcje p, .dom-dziecka-opcje h3, .dom-dziecka-opcje p{ color:#fff; border-color:#fff; }
+.fundacja-opcje h3, .dom-dziecka-opcje h3{ font-size:2.2em; text-transform:uppercase; }
+section ul{
+	list-style-image: url("../images/h-list.png");
+	font-family: 'Dosis', sans-serif;
+	font-size:1.8em;
+	color:#5c5c5c;
+	padding:0 0 0 1em;
+}
+section ul li{
+	padding:0;
+	line-height:1.4em;
+	padding-bottom:1.4em;
+}
+button, a.button-link{ 	font-family: 'Dosis', sans-serif; height:48px; padding:0; line-height:46px; border:1px solid #079be1; color:#079be1; background:none; cursor:pointer; text-transform:uppercase; }
+button:hover, a.button-link:hover{ background:#079be1; border:1px solid #079be1; color:#fff; }
+a.button-link{ float:left; text-align:center; font-size:1.8em; height:48px!important; padding:0 10px; text-decoration:none;}
+.fundacja-opcje a.button-link, .dom-dziecka-opcje a.button-link{ border:1px solid #fff; color:#fff; }
+.fundacja-opcje a.button-link:hover, .dom-dziecka-opcje a.button-link:hover{ background:#fff; border:1px solid #fff; color:#079be1; }
+.dom-dziecka-opcje.ostatnia a.button-link:hover{ color:#e85b98; }
+footer{ padding:1em 0; background:#1d1d1d; color:#fff;  }
+footer h2, footer p{ color:#fff; padding:0; text-align:right; }
+footer h2{ padding-top:1em; }
